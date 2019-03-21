@@ -1,12 +1,14 @@
+var date = new Date();
+
 class BlogPost {
     title: string;
     content: string;
-    private _date: Date;
+    private _date: string;
 
     public constructor(title: string, content: string) {
         this.title = title;
         this.content = content;
-        this._date = new Date();
+        this._date = date.toLocaleDateString();
     }
 
     get date(){
