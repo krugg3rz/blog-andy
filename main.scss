@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin text-border {
     border: 2px solid #b16400;
     border-radius: 7px;
@@ -30,6 +31,23 @@ h1 {
     flex-direction: column;
     justify-content: space-around;
     align-items: space-between;
+=======
+body {
+    background-color: orange;
+    font-family: sans-serif;
+}
+
+.card {
+    background-color: red;
+    width: 800px;
+    height:300px;
+    border-radius: 10px;
+    border: solid 5px yellow;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 426ceb8d88e82bf0a94979929f59e7d9bbe566b8
     margin: 10px;
 }
 
@@ -38,6 +56,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 }
 
 input {
@@ -52,4 +71,6 @@ textarea {
     height: 80px;
     align-self: center;
     @include text-border;
+=======
+>>>>>>> 426ceb8d88e82bf0a94979929f59e7d9bbe566b8
 }

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <main>
         <h1>Andy's Blog Plethora&trade;</h1>
         <div class="card-container">
@@ -37,6 +38,25 @@
                 <div id="blog-output"></div>
             </div>
     </main>
+=======
+    <div class="card-container">
+        <div class="card">
+            <form id="blog-form" onsubmit="createBlogPost(); return false;">
+                <p>
+                    <label for="blog-title">Blog title:</label>
+                    <input type="text" name="blog-title" />
+                </p>
+                <p>
+                    <label for="blog-post">Blog post:</label>
+                    <textarea name="blog-post"></textarea>
+                </p>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div class="card" id="blog-output">
+        </div>
+    </div>
+>>>>>>> 426ceb8d88e82bf0a94979929f59e7d9bbe566b8
 </body>
 
 </html>
