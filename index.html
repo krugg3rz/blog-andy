@@ -13,13 +13,13 @@
 <body>
     <div class="card-container">
         <div class="card">
-            <form id="blog-form" onsubmit="sayHello(); return false;">
+            <form id="blog-form" onsubmit="createBlogPost(); return false;">
                 <p>
-                    <label for="blogger-title">Blog title:</label>
-                    <input type="text" name="Blogger Title" />
+                    <label for="blog-title">Blog title:</label>
+                    <input type="text" name="blog-title" />
                 </p>
                 <p>
-                    <label for="blogger-post">Blog post:</label>
+                    <label for="blog-post">Blog post:</label>
                     <textarea name="blog-post"></textarea>
                 </p>
                 <input type="submit" value="submit">
