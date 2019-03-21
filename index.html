@@ -11,23 +11,32 @@
 </head>
 
 <body>
-    <div class="card-container">
-        <div class="card">
-            <form id="blog-form" onsubmit="createBlogPost(); return false;">
-                <p>
+    <main>
+        <h1>Andy's Blog Plethora&trade;</h1>
+        <div class="card-container">
+            <div class="card" id="input-card">
+                <form id="blog-form" onsubmit="createBlogPost(); return false;">
+                    <p>
                     <label for="blog-title">Blog title:</label>
+                    </p>
+                    <p>
                     <input type="text" name="blog-title" />
-                </p>
-                <p>
+                    </p>
+                    <p>
                     <label for="blog-post">Blog post:</label>
+                    </p>
+                    <p>
                     <textarea name="blog-post"></textarea>
-                </p>
-                <input type="submit" value="submit">
-            </form>
-        </div>
-        <div class="card" id="blog-output">
-        </div>
-    </div>
+                    </p>
+                    <p>
+                    <input type="submit" value="submit">
+                    </p>
+                </form>
+            </div>
+            <div class="card">
+                <div id="blog-output"></div>
+            </div>
+    </main>
 </body>
 
 </html>
