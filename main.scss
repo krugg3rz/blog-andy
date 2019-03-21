@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+}
+
+.card {
+    background-color: red;
+    width: 800px;
+    height:300px;
+    border-radius: 5px;
+    border: solid 5px blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
