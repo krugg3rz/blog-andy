@@ -42,14 +42,14 @@ h1 {
 
 input {
     font-weight: bold;
-    width: 400px;
+    width: 40%;
     padding: 12px 20px;
     @include text-border;
 }
 
 textarea {
-    width: 100%;
+    width: 96%;
     height: 80px;
-    align-self: center;
+    padding: 12px 20px;
     @include text-border;
 }
