@@ -1,0 +1,13 @@
+{
+  "name": "blog-andy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/krugg3rz/blog-andy.git",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.17.3"
+  },
+  "dependencies": {
+    "typescript": "^3.3.4000"
+  }
+}
